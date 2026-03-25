@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from flask import Flask
 
 app = Flask(__name__)
@@ -7,4 +8,15 @@ def home():
     return "Hello from End-to-End DevOps Project"
 
 if __name__ == '__main__':
+=======
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "Hello from End-to-End DevOps Project"
+
+if __name__ == '__main__':
+>>>>>>> 74eaa8f439ed57fa0347f08dbf9cda7d41e014d2
     app.run(host='0.0.0.0', port=8080)

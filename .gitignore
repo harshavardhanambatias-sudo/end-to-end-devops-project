@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 __pycache__/
 *.pyc
 .terraform/
 terraform.tfstate
+=======
+__pycache__/
+*.pyc
+.terraform/
+terraform.tfstate
+>>>>>>> 74eaa8f439ed57fa0347f08dbf9cda7d41e014d2
 terraform.tfstate.backup
