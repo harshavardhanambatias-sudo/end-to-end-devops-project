@@ -24,3 +24,23 @@ This project shows a simple Flask app deployed using DevOps tools.
 ```bash
 pip install -r requirements.txt
 python app.py
+
+# End-to-End DevOps Project
+
+## Tools Used
+- Python Flask
+- Docker
+- AWS EC2
+- GitHub
+
+## Run locally
+python app.py
+
+## Build Docker image
+docker build -t devops-app .
+
+## Run container
+docker run -d -p 8080:8080 --name devops-container devops-app
+
+## Access app
+http://<EC2-Public-IP>:8080
